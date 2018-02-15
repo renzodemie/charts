@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include oneiric_erpn *.css
+recursive-include oneiric_erpn *.csv
+recursive-include oneiric_erpn *.html
+recursive-include oneiric_erpn *.ico
+recursive-include oneiric_erpn *.js
+recursive-include oneiric_erpn *.json
+recursive-include oneiric_erpn *.md
+recursive-include oneiric_erpn *.png
+recursive-include oneiric_erpn *.py
+recursive-include oneiric_erpn *.svg
+recursive-include oneiric_erpn *.txt
+recursive-exclude oneiric_erpn *.pyc
